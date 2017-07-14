@@ -1,0 +1,47 @@
+#nav{
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	top:0px;
+	z-index: 999;
+	border-bottom: 1px solid #999;
+}
+.contain{
+	margin-top: 60px;
+}
+
+.border{
+	border: 1px solid #999;
+}
+
+.border.home-menu a,.border.home-menu img,.border.home-menu p {
+	padding: 0px;
+	font-size: 9px;
+
+}
+
+.border.home-menu{
+	padding: 0px;
+}
+
+.left{
+	position: absolute;
+	left:0;
+	width: 20%;
+	height:  100%;
+	border-right: 1px solid #999;
+}
+
+.left span{
+	position: absolute;
+  top: 50%;
+  left:50%;
+  color: #222;
+  transform: translate(-50%,-50%);
+}
+
+
+.banner-link{
+	width: 100%;
+	
+}
